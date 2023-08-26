@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 app = Dash(__name__)
+server = app.server
 
 # Read your CSV data
 data_url = "https://raw.githubusercontent.com/DeborahMMU2023/DataVisualization/spotifydata/data.csv"
